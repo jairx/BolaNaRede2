@@ -1,0 +1,46 @@
+<!--
+  Generated template for the CadastrotimesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Novo Time</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="estilo03">
+
+    <h1>Bola na Rede</h1>
+
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Nome do time</ion-label>
+        <ion-input type="text" [(ngModel)]="nomeTime"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Cor da camisa 1</ion-label>
+        <ion-input type="text" [(ngModel)]="corCamisa1"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Cor da camisa 2</ion-label>
+          <ion-input type="text" [(ngModel)]="corCamisa2"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Cor da camisa 3</ion-label>
+          <ion-input type="text" [(ngModel)]="corCamisa3"></ion-input>
+      </ion-item>
+    </ion-list>
+
+  <div>
+    <button ion-button full (click)="cadastrar()">Cadastrar</button>
+  </div>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "BolanaRede",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

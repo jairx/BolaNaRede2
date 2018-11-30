@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="title">Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="principal-custom">
+  <h1>Bola na Rede</h1>
+
+  <ion-card>
+    <ion-card-header>
+      Explorar
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <button ion-list (click)="onTimes()">
+          <ion-icon name="cart" item-start></ion-icon>
+            Times
+        </button>
+        <br>
+
+        <br>
+        <button ion-list (click)="onCampeonato()">
+          <ion-icon name="star" item-start></ion-icon>
+            Campeonatos
+        </button>
+        <br>
+
+        <br>
+        <button ion-list (click)="onJogos()">
+          <ion-icon name="heart" item-start></ion-icon>
+          Jogos
+        </button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
